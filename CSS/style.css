@@ -57,6 +57,9 @@ table {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
@@ -103,6 +106,7 @@ table {
     line-height: 1.33;
     display: block;
     margin: 0 auto;
+    margin-top: 25px;
 }
 button:hover {
 background-color: #d9400e;
@@ -156,4 +160,29 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 box-sizing: border-box;
+}
+.cases .devices, .devices2, .devices3 {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+}
+.cases h2 {
+font-size: 2.75rem;
+margin: 1.625rem 0 3.125rem;
+font-weight: 300;
+text-align: center;
+margin-top: 125px;
+}
+.devices,.devices2,.devices3 {
+	margin-right: -400px;
+	margin-left: 0px;
+	padding: 0 auto;
+}
+.devices {
+	margin-left: 450px;
+}
+.devices2, .devices3 {
+	margin-left: 150px;
 }
